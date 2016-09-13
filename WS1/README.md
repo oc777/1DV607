@@ -1,5 +1,13 @@
-Work Shop 1   
+__Work Shop 1__   
 
-Olga Christensen  
+Olga Christensen  (oc222ba)
 
-oc222ba
+
+
+Assumptions:
+
+- a yacht club can own boat(s)
+- a person can be a member of the club without owning a boat
+ 
+
+![domain model](https://github.com/Popniten/1dv607/tree/master/workshop-1)
