@@ -11,4 +11,4 @@ __Assumptions:__
  
 
 
-![domain model](https://raw.githubusercontent.com/Popniten/1dv607/master/workshop-1/workshop-1.png)
+![domain model](https://raw.githubusercontent.com/oc777/1DV607/master/WS1/WS1-Domain-Model.jpg)
