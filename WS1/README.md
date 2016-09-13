@@ -10,4 +10,4 @@ Assumptions:
 - a person can be a member of the club without owning a boat
  
 
-![domain model](https://github.com/Popniten/1dv607/tree/master/workshop-1)
+![domain model](https://raw.githubusercontent.com/Popniten/1dv607/master/workshop-1/workshop-1.png)
