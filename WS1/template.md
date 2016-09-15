@@ -1,8 +1,8 @@
 
 #Peer Review
 
-_by Olga Christensen (oc222ba)_  
-_of Pär Eriksson	(pe222gq) and Oskar Emilsson	(oe222ca)
+_review by Olga Christensen (oc222ba)_   
+_of work by Pär Eriksson	(pe222gq) and Oskar Emilsson	(oe222ca)_
 
 
 
@@ -32,7 +32,7 @@ __Do you think the model has passed the grade 2 (passing grade) criteria?__
 
 __References__
 
-1.
-2.
-3.
+1.  
+2.  
+3.  
 
