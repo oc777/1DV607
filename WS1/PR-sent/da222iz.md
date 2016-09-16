@@ -10,8 +10,8 @@ The domain model has an appealing visual presentation, but, in my oppinion, it i
 
 __The strong points of the model__
 
-1. Good names for conceptual classes, however I would recommend changing Berths to singular form
-2. Good graphics 
+1. Good names for conceptual classes, however I would recommend changing Berths to singular form [1, ch. 9.12]
+2. Good graphics [1, ch. 9.10]
 
 
 __The weaknesses of the model__
