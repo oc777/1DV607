@@ -21,7 +21,7 @@ __The strong points of the model__
 5. Well thought-through multiplicity notations
 
 
-__Tthe weaknesses of the model__
+__The weaknesses of the model__
 
 1. Municipality is out of scope and is not an interesting actor. According to Larman we should "exclude irrelevant out-of-scope features" [1, ch. 9.10]  
 2. Booking class is more relevant for developers since it describes the system and not the reality. According to Larman "a domain model is not a description of software objects" [1, ch. 1.5]. What is of interest in the "real" world is that the Secretary manages the placement of the Boats.
