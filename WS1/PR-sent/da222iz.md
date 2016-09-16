@@ -2,7 +2,7 @@
 #Peer Review
 
 _review by Olga Christensen (oc222ba)_   
-_of work by David Andersson	(da222iz), Mattias Gustavsson (mg222ws) and Robin Stempa	(rs222nv)_
+_of [work] (https://github.com/da222iz/1DV607/blob/master/Domain%20model.pdf) by David Andersson	(da222iz), Mattias Gustavsson (mg222ws) and Robin Stempa	(rs222nv)_
 
 
 
@@ -14,17 +14,17 @@ __Do you think a domain expert (for example the Secretary) would understand the 
 
 
 
-__What are the strong points of the model, what do you think is really good and why?__
+__The strong points of the model__
 
 
 
-__What are the weaknesses of the model, what do you think should be changed and why?__
+__The weaknesses of the model__
 
 
 
-__Do you think the model has passed the grade 2 (passing grade) criteria?__
+__Conclusion__
 
-
+I think that the model has passed the passing grade criteria
 
 
 
@@ -32,7 +32,4 @@ __Do you think the model has passed the grade 2 (passing grade) criteria?__
 
 __References__
 
-1.  
-2.  
-3.  
-
+1.  Larman, C., Applying UML and Patterns 3rd Ed, 2005, ISBN: 0-13-148906-2
