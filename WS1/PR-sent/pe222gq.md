@@ -8,7 +8,7 @@ _of [work] (https://github.com/Popniten/1dv607/blob/master/workshop-1/README.md)
 
 
 
-In general the model has a clear visual representation of the domain, it is well structured and has a  good redability. In my oppinion, a domain expert should be able to understand the model due to well named classes and associations between them.  
+In general the model has a clear visual representation of the domain, it is well structured and has a  good redability. In my oppinion, both developer and domain expert should be able to understand the model due to well named classes and associations between them.  
 
 
 
