@@ -14,9 +14,9 @@ In general the model has a clear visual representation of the domain, it is well
 
 __The strong points of the model__
 
-1. Clear and not cluttered visual presentation 
+1. Clear and not cluttered visual presentation [1, ch. 9.10]
 2. Good names of the conceptual classes and proper attributes [1, ch. 9.12]
-3. Meaningfull and descriptive association names
+3. Meaningfull and descriptive association names [1, ch. 9.14]
 4. Easy readability due to "reading direction errors" [1, ch. 9.14]
 5. Well thought-through multiplicity notations [1, ch. 9.13]
 
