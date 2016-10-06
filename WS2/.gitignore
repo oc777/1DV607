@@ -1,5 +1,5 @@
-build
-nbproject
-test
-manifest.mf
-build.xml
+BoatClub/build
+BoatClub/nbproject
+BoatClub/test
+BoatClub/manifest.mf
+BoatClub/build.xml
