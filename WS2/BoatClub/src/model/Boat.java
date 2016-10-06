@@ -41,6 +41,5 @@ public class Boat implements Serializable {
     public String toString() {
         return type + " " + length + " m";
     }
-    
-    
+     
 }
