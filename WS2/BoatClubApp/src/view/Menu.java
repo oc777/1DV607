@@ -10,10 +10,12 @@ public class Menu {
     
     public Menu() {
         action = new MenuActions();
-        
+    }
+    
+    // initial start
+    public void start() {
         printIntro();
         showMenu();
-        
     }
     
     // name of the application

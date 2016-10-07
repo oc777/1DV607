@@ -18,6 +18,7 @@ public class Registry {
         ids = fh.listAllFiles();
     }
     
+    
     // checks if club registry is empty
     public boolean isEmpty() {
         return ids.isEmpty();

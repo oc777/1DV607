@@ -55,15 +55,18 @@ public class FileHandler {
         
         File[] list = new File(dir).listFiles();
 
-        for (File f : list) {
-            if (f.isFile()) {
-                String fName = f.getName();
-                fName = fName.substring(0, fName.length()-4);
-                files.add(Integer.parseInt(fName));
+        if (list != null) {
+            for (File f : list) {
+                if (f.isFile()) {
+                    String fName = f.getName();
+                    fName = fName.substring(0, fName.length()-4);
+                    files.add(Integer.parseInt(fName));
+                }
             }
+
+            Collections.sort(files); 
         }
         
-        Collections.sort(files); 
         return files;
     }
     
