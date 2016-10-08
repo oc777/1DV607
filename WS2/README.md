@@ -10,10 +10,15 @@ Olga Christensen (oc222ba)
 
 3. Class and Sequence diagrams [here] (https://github.com/oc777/1DV607/tree/master/WS2/Diagrams)
 
+
+###To run application:  
+
+1. crete an empty folder ```club``` somewhere on your computer (or any other name)    
+2. create a folder named ```data``` in the ```club``` folder (all files created by application will be save in this folder, __so the name is crutial__)   
+3. save the jar file in the ```club``` folder  
+4. using terminal/command prompt navigate to that folder and execute  
+```java -jar "BoatClub.jar" ```  
+
+
 :-P
 
-__To run application:__  
-1. crete a folder somewhere on your computer and copy the jar file there  
-2. using terminal/command prompt navigate to that folder and execute  
-```java -jar "BoatClub.jar" ```  
-3. all files created by application will be save in the same folder
