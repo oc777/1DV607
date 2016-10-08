@@ -12,7 +12,7 @@ Olga Christensen (oc222ba)
 
 :-P
 
-To run application:  
+__To run application:__  
 1. crete a folder somwhere on your computer and copy the jar file there
 2. using terminal/command prompt navigate to that folder and execute  
 ```java -jar "BoatClub.jar" ```  
