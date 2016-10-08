@@ -9,7 +9,8 @@ import java.util.Collections;
  * @author olgachristensen
  */
 public class FileHandler {
-    final String dir = "src/data/";
+    //final String dir = "src/data/";
+    final String dir = "";
     final String ext = ".ser";
     
     //save object in .ser file
