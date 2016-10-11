@@ -34,5 +34,6 @@ i.e. either ```ApplicationMain``` or ```Member``` should make a request first to
 
 
 __References__
+
 1.	Larman, C., Applying UML and Patterns 3rd Ed, 2005, ISBN: 0-13-148906-2
 2.	UML 2 Class Diagramming Guidelines, 2016-10-11, http://agilemodeling.com/style/classDiagram.htm#Interfaces
