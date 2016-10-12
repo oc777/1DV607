@@ -2,7 +2,7 @@
 #Peer Review
 
 _review by Olga Christensen (oc222ba)_   
-_of [work] (https://github.com/sticky4loop/ooad-workshop-2) by Tomas Vaedelund	(tr222cj), Christoffer Ekblom (cehmw09) 
+_of [work] (https://github.com/sticky4loop/ooad-workshop-2) by Tomas Vaedelund	(tr222cj), Christoffer Ekblom (cekmw09) 
 and Mikael Melander (mm222ev)_
 
 First of all I would like to state that I am not acquainted with PHP and client-based programming, 
