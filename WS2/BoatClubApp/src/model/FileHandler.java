@@ -9,8 +9,8 @@ import java.util.Collections;
  * @author olgachristensen
  */
 public class FileHandler {
-    final String dir = "data/";
-    //final String dir = "";
+    final String dir = "data" + File.separator;
+    //final String dir = "src/data/";          // use when running in IDE
     final String ext = ".ser";
     
     //save object in .ser file
