@@ -44,11 +44,6 @@ public class MenuActions {
         return i;
     }
     
-    // get input from user
-    public String getOptionsResponse() {
-        return ui.getString();
-    }
-    
     
     /* MEBER LISTS */
     
@@ -336,5 +331,13 @@ public class MenuActions {
         return idBoat;
     }
    
+    /*
+    
+    // get input from user
+    public String getOptionsResponse() {
+        return ui.getString();
+    }
+    
+    */
     
 }
