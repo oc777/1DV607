@@ -148,15 +148,18 @@ public class MenuActions {
         
         //verbose view
         if(!compact) {
+            str += "SSN: " + m.getSSN() + "\n";
             if (!m.boats.isEmpty()) {
                 for (int i = 0; i < m.boats.size(); i++) {
                     int n = i+1;
                     str += n + " ";
                     str += m.boats.get(i).toString();
-                    str += "\n";
+                    //str += "\n";
                 }
             }
         }
+        
+        str += "\n";
         
         System.out.println(str);    
     }
