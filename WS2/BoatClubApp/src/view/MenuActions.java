@@ -45,7 +45,7 @@ public class MenuActions {
     }
     
     
-    /* MEBER LISTS */
+    /* MEMBER LISTS */
     
     // list all members compact or verbose view
     public void printMembers(boolean compact) {
@@ -232,7 +232,6 @@ public class MenuActions {
 
     }
     
-    
     // add / edit boat type
     private Boat.BoatType selectBoatType() {
         System.out.println("Step 1. Choose boat type: ");
@@ -307,7 +306,6 @@ public class MenuActions {
         
         return l;
     }
-    
     
     // edit / delete specific boat by ID
     private int getBoatID() {

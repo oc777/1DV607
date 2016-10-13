@@ -99,7 +99,6 @@ public class Menu {
         showMenu();
     }
     
-    
     public void printDivider() {
         System.out.println(
             "\n"  +

@@ -50,7 +50,6 @@ public class Registry {
         return ids.contains(id);
     }
     
-    
     // returns Member object with specific ID
     public Member getMember(int id) {
         Member m = null;
