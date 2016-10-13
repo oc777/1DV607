@@ -154,14 +154,14 @@ public class MenuActions {
                     int n = i+1;
                     str += n + " ";
                     str += m.boats.get(i).toString();
-                    //str += "\n";
+                    str += "\n";
                 }
+                str += "\n";
             }
+            
         }
         
-        str += "\n";
-        
-        System.out.println(str);    
+        System.out.print(str);    
     }
     
     // get user input for member info

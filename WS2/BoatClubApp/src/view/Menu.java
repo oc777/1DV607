@@ -95,10 +95,26 @@ public class Menu {
                 break;
         }
         
-        printDivider();
-        showOptions();       
+        //showOptions();
+        showMenu();
     }
     
+    
+    public void printDivider() {
+        System.out.println(
+            "\n"  +
+            "------------------------------------------------" +
+            "\n"
+        );
+    }
+    
+    // quit application
+    private void quit() {
+        //ui.closeScanner();
+        System.exit(0);
+    }
+    
+    /*
     // options to quit program or view main menu
     private void showOptions() {
         System.out.println("To quit programm press Q");
@@ -124,22 +140,7 @@ public class Menu {
         }
         
     }
-    
-    
-    public void printDivider() {
-        System.out.println(
-            "\n"  +
-            "------------------------------------------------" +
-            "\n"
-        );
-    }
-    
-    // quit application
-    private void quit() {
-        //ui.closeScanner();
-        System.exit(0);
-    }
-    
+    */
     
     
 }
