@@ -10,6 +10,8 @@ Olga Christensen (oc222ba)
 
 3. Class and Sequence diagrams [here] (https://github.com/oc777/1DV607/tree/master/WS2/Diagrams)
 
+4. Changes done after Peer Review [here] (https://github.com/oc777/1DV607/blob/master/WS2/changes.txt)
+
 
 ###To run application:  
 
