@@ -22,6 +22,8 @@ Olga Christensen (oc222ba)
 `java -jar BoatClub.jar `  
 
 
-###To run project in IDE
+###To run project in IDE:
 
-1. In `FileHandler.java` comment out line 12 and uncomment line 13  
+1. In `model` package edit `FileHandler.java` before running the project  
+  * comment out line 12  
+  * un-comment line 13  
