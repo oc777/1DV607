@@ -1,9 +1,36 @@
 
-App:
+According to review by mo222mw I did further changes:
+
+1.
+"Having to choose between going back to menu or quitting the application after each operation seems redundant, only adding an extra button to press." 
+- removed showOptions() method from Menu.java
+
+
+According to review by mr222xu I did further changes:
+
+1.
+"Consider changing the dir member variable in the FileHandler class to e.g. “data” + File.separator[1] to cater for operating systems that have other file separators than slash."
+- added File.separator() to FileHandler.java
+
+2. 
+"The verbose list doesn’t print the personal number/social security number"
+- updated MenuActions.java to print SSN in verbose list
+
+3.
+"I think that the MenuActions class should  show a dependency to Member."
+- added dependency
+
+4.
+"The return messages in the sequence diagrams should be depicted with an open arrow, and not a closed arrow"
+- fixed (where appliable)
 
 
 
 
-Diagrams:
+Additionally:
+- I have reviewed my Class Diagram and removed all dependencies to BoatType enum, and moved them to Boat instead, since BoatType is an inner class of Boat.
+
+ 
+
 
 
