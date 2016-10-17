@@ -19,8 +19,9 @@ Olga Christensen (oc222ba)
 2. create a folder named ```data``` in the ```club``` folder (all files created by application will be save in this folder, __so the name is crutial__)   
 3. save the jar file in the ```club``` folder  
 4. using terminal/command prompt navigate to that folder and execute  
-```java -jar "BoatClub.jar" ```  
+`java -jar BoatClub.jar `  
 
 
-:-P
+###To run project in IDE
 
+1. In `FileHandler.java` comment out line 12 and uncomment line 13  
