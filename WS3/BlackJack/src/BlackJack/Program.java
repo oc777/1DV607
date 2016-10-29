@@ -1,4 +1,4 @@
-/*package BlackJack;*/
+package BlackJack;
 
 import BlackJack.controller.*;
 import BlackJack.model.Game;
