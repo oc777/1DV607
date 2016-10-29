@@ -15,10 +15,12 @@ public class Dealer extends Player {
         m_hitRule = a_rulesFactory.GetHitRule();
         m_winnerStrategy = a_rulesFactory.GetWinnerStrategy();
 
-        /*for(Card c : m_deck.GetCards()) {
-      c.Show(true);
-      System.out.println("" + c.GetValue() + " of " + c.GetColor());
-    }    */
+        /*
+        for(Card c : m_deck.GetCards()) {
+        c.Show(true);
+        System.out.println("" + c.GetValue() + " of " + c.GetColor());
+        }    
+        */
     }
 
     public boolean NewGame(Player a_player) {
@@ -26,17 +28,21 @@ public class Dealer extends Player {
             m_deck = new Deck();
             ClearHand();
             a_player.ClearHand();
-            return m_newGameRule.NewGame(m_deck, this, a_player);
+            return m_newGameRule.NewGame(this, a_player);
         }
         return false;
     }
 
     public boolean Hit(Player a_player) {
         if (m_deck != null && a_player.CalcScore() < g_maxScore && !IsGameOver()) {
+            /*
             Card c;
             c = m_deck.GetCard();
             c.Show(true);
-            a_player.DealCard(c);
+            a_player.AddCardToHand(c);
+            */
+            
+            DealCard(a_player, true);
 
             return true;
         }
@@ -68,10 +74,13 @@ public class Dealer extends Player {
             ShowHand();
 
             while (m_hitRule.DoHit(this)) {
+                DealCard(this, true);
+                /*
                 Card c;
                 c = m_deck.GetCard();
                 c.Show(true);
-                DealCard(c);
+                AddCardToHand(c);
+                */
             }
 
             return true;
@@ -79,5 +88,12 @@ public class Dealer extends Player {
 
         return false;
     }
+    
+    public void DealCard(Player a_player, boolean show) {
+        Card c = m_deck.GetCard();
+        c.Show(show);
+        a_player.AddCardToHand(c);
+    }
 
+    
 }
