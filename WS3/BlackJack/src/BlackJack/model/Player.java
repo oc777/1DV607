@@ -31,6 +31,16 @@ public class Player {
             c.Show(true);
         }
     }
+    
+    public boolean HasAce() {
+        for (Card c : m_hand) {
+            if (c.GetValue() == Card.Value.Ace) {
+                return true;
+            }
+        }
+        
+        return false;
+    }
 
 
     public int CalcScore() {
