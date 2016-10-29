@@ -25,6 +25,28 @@ public class SwedishView implements IView {
             return 0;
         }
     }
+    
+    public Option GetOption() {
+        Option opt = null;
+        int input = GetInput();
+
+        switch (input) {
+            case 'p':
+                opt = Option.NewGame;
+                break;
+            case 'h':
+                opt = Option.Hit;
+                break;
+            case 's':
+                opt = Option.Stand;
+                break;
+            case 'q':
+                opt = Option.Quit;
+                break;
+        }
+
+        return opt;
+    }
 
     public void DisplayCard(BlackJack.model.Card a_card) {
         if (a_card.GetColor() == BlackJack.model.Card.Color.Hidden) {

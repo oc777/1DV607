@@ -23,6 +23,28 @@ public class SimpleView implements IView {
         }
     }
 
+    public Option GetOption() {
+        Option opt = null;
+        int input = GetInput();
+
+        switch (input) {
+            case 'p':
+                opt = Option.NewGame;
+                break;
+            case 'h':
+                opt = Option.Hit;
+                break;
+            case 's':
+                opt = Option.Stand;
+                break;
+            case 'q':
+                opt = Option.Quit;
+                break;
+        }
+
+        return opt;
+    }
+
     public void DisplayCard(BlackJack.model.Card a_card) {
         System.out.println("" + a_card.GetValue() + " of " + a_card.GetColor());
     }

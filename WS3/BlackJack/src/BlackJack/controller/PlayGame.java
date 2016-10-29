@@ -15,16 +15,19 @@ public class PlayGame {
             a_view.DisplayGameOver(a_game.IsDealerWinner());
         }
 
-        int input = a_view.GetInput();
+        
+        IView.Option opt = a_view.GetOption();
 
-        if (input == 'p') {
+        if (opt == IView.Option.NewGame) {
             a_game.NewGame();
-        } else if (input == 'h') {
+        } else if (opt == IView.Option.Hit) {
             a_game.Hit();
-        } else if (input == 's') {
+        } else if (opt == IView.Option.Stand) {
             a_game.Stand();
         }
 
-        return input != 'q';
+        return opt != IView.Option.Quit;
+
+        
     }
 }
