@@ -1,8 +1,8 @@
-package BlackJack;
+/*package BlackJack;*/
 
+import BlackJack.controller.*;
 import BlackJack.model.Game;
 import BlackJack.view.*;
-import BlackJack.controller.*;
 
 public class Program
 {
