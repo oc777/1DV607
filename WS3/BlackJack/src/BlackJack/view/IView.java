@@ -2,6 +2,10 @@ package BlackJack.view;
 
 public interface IView {
 
+    enum Option {
+        NewGame, Hit, Stand, Quit
+    }
+    
     void DisplayWelcomeMessage();
 
     int GetInput();
@@ -16,7 +20,4 @@ public interface IView {
 
     void DisplayGameOver(boolean a_dealerIsWinner);
     
-    enum Option {
-        NewGame, Hit, Stand, Quit
-    }
 }

@@ -15,7 +15,7 @@ public class PlayGame {
             a_view.DisplayGameOver(a_game.IsDealerWinner());
         }
 
-        
+        /*
         IView.Option opt = a_view.GetOption();
 
         if (opt == IView.Option.NewGame) {
@@ -27,7 +27,23 @@ public class PlayGame {
         }
 
         return opt != IView.Option.Quit;
-
+        */
+        
+        switch(a_view.GetOption()) {
+            case NewGame:
+                a_game.NewGame();
+                break;
+            case Hit:
+                a_game.Hit();
+                break;
+            case Stand:
+                a_game.Stand();
+                break;
+            case Quit:
+                return false;
+        }
+        
+        return true;
         
     }
 }
