@@ -2,6 +2,11 @@ package BlackJack.view;
 
 public class SwedishView implements IView {
 
+    final private char play = 'p';
+    final private char hit = 'h';
+    final private char stand = 's';
+    final private char quit = 'q';
+    
     public void DisplayWelcomeMessage() {
 
         for (int i = 0; i < 50; i++) {
@@ -10,7 +15,7 @@ public class SwedishView implements IView {
 
         System.out.println("Hej Black Jack Världen");
         System.out.println("----------------------");
-        System.out.println("Skriv 'p' för att Spela, 'h' för nytt kort, 's' för att stanna 'q' för att avsluta\n");
+        System.out.println("Skriv '"+ play +"' för att Spela, '"+ hit +"' för nytt kort, '"+ stand +"' för att stanna '"+ quit +"' för att avsluta\n");
     }
 
     public int GetInput() {
@@ -31,16 +36,16 @@ public class SwedishView implements IView {
         int input = GetInput();
 
         switch (input) {
-            case 'p':
+            case play:
                 opt = Option.NewGame;
                 break;
-            case 'h':
+            case hit:
                 opt = Option.Hit;
                 break;
-            case 's':
+            case stand:
                 opt = Option.Stand;
                 break;
-            case 'q':
+            case quit:
                 opt = Option.Quit;
                 break;
         }

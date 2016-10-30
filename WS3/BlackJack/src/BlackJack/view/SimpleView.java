@@ -1,13 +1,18 @@
 package BlackJack.view;
 
 public class SimpleView implements IView {
+    
+    final private char play = 'p';
+    final private char hit = 'h';
+    final private char stand = 's';
+    final private char quit = 'q';
 
     public void DisplayWelcomeMessage() {
         for (int i = 0; i < 50; i++) {
             System.out.print("\n");
         };
         System.out.println("Hello Black Jack World");
-        System.out.println("Type 'p' to Play, 'h' to Hit, 's' to Stand or 'q' to Quit\n");
+        System.out.println("Type '"+ play +"' to Play, '"+ hit +"' to Hit, '"+ stand +"' to Stand or '"+ quit +"' to Quit\n");
     }
 
     public int GetInput() {
