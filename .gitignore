@@ -3,3 +3,4 @@
 
 /WS3/BlackJack/*
 !/WS3/BlackJack/src/*
+!WS3/.gitignore
