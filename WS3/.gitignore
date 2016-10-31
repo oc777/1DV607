@@ -3,3 +3,7 @@
 BlackJack/*
 !BlackJack/src/*
 !.gitignore
+BlackJack/build/
+BlackJack/nbproject
+BlackJack/build.xml
+BlackJack/manifest.mf
