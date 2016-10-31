@@ -1,6 +1,6 @@
 /WS2/BoatClubApp/dist/
 .DS_Store
 
-/WS3/BlackJack/*
-!/WS3/BlackJack/src/*
-!WS3/.gitignore
+#/WS3/BlackJack/*
+#!/WS3/BlackJack/src/*
+#!WS3/.gitignore
