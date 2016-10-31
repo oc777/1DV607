@@ -27,7 +27,6 @@ public class Game {
     }
 
     public boolean Stand() {
-        // TODO: Implement this according to Game_Stand.sequencediagram
         return m_dealer.Stand();
     }
 
@@ -47,4 +46,8 @@ public class Game {
         return m_player.CalcScore();
     }
 
+    public void AddSubscriber(ICardDealtObserver a_sub) {
+        m_dealer.AttachObserver(a_sub);
+        m_player.AttachObserver(a_sub);
+    }
 }

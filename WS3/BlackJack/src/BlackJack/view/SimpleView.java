@@ -7,14 +7,17 @@ public class SimpleView implements IView {
     final private char stand = 's';
     final private char quit = 'q';
 
+    public SimpleView() {
+        DisplayWelcomeMessage();
+    }
+    
     public void DisplayWelcomeMessage() {
         for (int i = 0; i < 50; i++) {
             System.out.print("\n");
         };
-        System.out.println("Hello Black Jack World");
         System.out.println("Type '"+ play +"' to Play, '"+ hit +"' to Hit, '"+ stand +"' to Stand or '"+ quit +"' to Quit\n");
     }
-
+    
     public int GetInput() {
         try {
             int c = System.in.read();
@@ -30,9 +33,8 @@ public class SimpleView implements IView {
 
     public Option GetOption() {
         Option opt = null;
-        int input = GetInput();
 
-        switch (input) {
+        switch (GetInput()) {
             case 'p':
                 opt = Option.NewGame;
                 break;
@@ -80,4 +82,5 @@ public class SimpleView implements IView {
         }
 
     }
+    
 }

@@ -7,7 +7,7 @@ public interface IView {
     }
     
     void DisplayWelcomeMessage();
-
+    
     int GetInput();
     
     Option GetOption();

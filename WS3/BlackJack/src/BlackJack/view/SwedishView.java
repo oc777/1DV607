@@ -7,6 +7,10 @@ public class SwedishView implements IView {
     final private char stand = 's';
     final private char quit = 'q';
     
+    public SwedishView() {
+        DisplayWelcomeMessage();
+    }
+    
     public void DisplayWelcomeMessage() {
 
         for (int i = 0; i < 50; i++) {
@@ -33,9 +37,8 @@ public class SwedishView implements IView {
     
     public Option GetOption() {
         Option opt = null;
-        int input = GetInput();
-
-        switch (input) {
+        
+        switch (GetInput()) {
             case play:
                 opt = Option.NewGame;
                 break;
