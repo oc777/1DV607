@@ -10,7 +10,7 @@ __1. Implement Game::Stand__
 Implemented as required.
 
 
-
+***
 __2. Remove the bad, hidden, dependency between the controller and view (new game, hit, stand)__
 
 To solve this an `Enum` class `View Action` was created in the `controller` namespace.  
@@ -22,7 +22,7 @@ Othervise the "hidden dependency" was removed.
 
 
 
-
+***
 __3. Design and implement Soft 17__
 
 To check if the Soft 17 rule applies to the dealer's hand a condition is passed `if (a_dealer.CalcScore() == 17 && a_dealer.hasAce())`.  
@@ -32,7 +32,7 @@ I disagree that we should just check if Ace is on the hand, since the dealer can
 However, this was not specified by the assignment's requirements, so I don't think it is important.  
 
 
-
+***
 __4. Design and implement a variable rules for who wins the game__
 
 An interface `IWinStrategy` in the namespace `model.rules` is now responsible for checking if the dealer is the winner. This allows easy implementation of new winning strategies.  
@@ -41,14 +41,14 @@ Since the value of `maxScore` is involved in calculating the winner, this value 
 
 
 
-
+***
 __5. Refactor code to remove duplication__
 
 New method `public void GiveCardToPlayer(Player a_player, bool isShown)` in `Dealer` class replaces all occurences of the duplicate code.  
 
 
 
-
+***
 __6. Implement Observer pattern__ 
 
 The interface `GameObserver` was placed in `controller` namespace which led to violation of MVC separation principle - now `model.Player` has an assosiation relation to `controller`. Hence the interface `GameObserver` should be placed in the `model` namespace.  
@@ -57,14 +57,14 @@ Also it is a common practice to use a `List` to collect all observers for a cert
 
 Also I wouldn't recommend subscribing an observer in the main class `Program`, I think that the `PlayGame` class is the information expert in this case. So it should be done there in the constructor.  
 
-
+***
 __7. Class Diagram__
 
 Class `Game` is missing a dependency to `GameObserver` interface.
 
 
 
-
+***
 __Additionally__
 
 When working on some else's code it is a good idea to follow the established naming convention. In this case method's name should start with capital letter (e.g. `public void tempGamePause()`, `displayWelcomeMessageAndHands()`, etc).
