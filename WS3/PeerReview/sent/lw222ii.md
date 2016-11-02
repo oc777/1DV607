@@ -35,7 +35,7 @@ __4. Design and implement a variable rules for who wins the game__
 
 An interface `IWinStrategy` in the namespace `model.rules` is now responsible for checking if the dealer is the winner. This allows easy implementation of new winning strategies.  
 
-Since the value of `maxScore` is involved in calculating the winner, this value was made public (originally it was private), so it  can be accessed directly from other namespaces  (i.e. `a_dealer.maxScore`). This is a bad idea to make a private field public since it would allow other members to modify it, instead I would suggest makeing the field private again and passing this value as a parametr to the method `isDealerWinner(Player a_player, Player a_dealer, int maxScore)`.
+Since the value of `maxScore` is involved in calculating the winner, this value was made public (originally it was private), so it  can be accessed directly from other namespaces  (i.e. `a_dealer.maxScore`). This is a bad idea to make a private field public since it would allow other members to modify it, instead I would suggest making the field private again and passing this value as a parametr to the method `isDealerWinner(Player a_player, Player a_dealer, int maxScore)`.
 
 
 
