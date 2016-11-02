@@ -59,6 +59,8 @@ The `IObserver` interface and `PlayGame` class are missing a dependency on the `
 
 `PlayGame` class now has an association relations with `Game` and `IView`, not a dependency.
 
+Would be nice to add the relations between `GameOptions` and `IView` implementations.  
+
 
 ***
 __References:__
