@@ -63,7 +63,7 @@ The `IObserver` interface and `PlayGame` class are missing a dependency on the `
 ***
 __References:__
 
-1. [Model-View-Controller] (https://msdn.microsoft.com/en-us/library/ff649643.aspx)
+1. [Model-View-Controller] (https://msdn.microsoft.com/en-us/library/ff649643.aspx), microsoft.com
 
 2. Larman, C., Applying UML and Patterns 3rd Ed, 2005, ISBN: 0-13-148906-2
 
