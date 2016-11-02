@@ -29,10 +29,6 @@ __3. Design and implement Soft 17__
 
 To check if the Soft 17 rule applies to the dealer's hand a condition is passed `if (a_dealer.CalcScore() == 17 && a_dealer.hasAce())`.  
 The method `hasAce()` is implemented in the `Player` class, which is good, since it is the information expert.  
-I disagree that we should just check if Ace is on the hand, since the dealer can have two Aces, valued 1 each, and still hit 17. But in this case the Soft 17 shouldn't apply. So I would recommend checking if the dealer has __one__ ace in hand.  
-
-However, this was not specified by the assignment's requirements, so I don't think it is important.  
-
 
 ***
 __4. Design and implement a variable rules for who wins the game__
