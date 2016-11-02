@@ -45,7 +45,7 @@ A new method `public void AddCard(bool a_isHidden, Player a_player)` was created
 ***
 __6. Implement Observer pattern__ 
 
-The current implementation of the `IObserver` creates an annecessary dependency to the `Card` class (both from `IObserver` and `PlayGame`). The `Card` is never actually used in the `PlayGame`, so I don't see the point in passing it to the `IObserver.ShowCard` method. Plain `IObserver.ShowCard();` should suffice. 
+The current implementation of the `IObserver` creates an unnecessary dependency to the `Card` class (both from `IObserver` and `PlayGame`). The `Card` is never actually used in the `PlayGame`, so I don't see the point in passing it to the `IObserver.ShowCard` method. Plain `IObserver.ShowCard();` should suffice. 
 
 Otherwise a good implementation. The `IObserver` is in the model namespace to follow the MVC separation principle. The observers are added to the `Player` class since it is the information expert. 
 
