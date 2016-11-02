@@ -5,11 +5,11 @@ _of [work] (https://github.com/larswww/BlackJack/releases/tag/1.0)
 by Lars Wöldern	(lw222i) and Nicklas Björkendal (nb222gp)_
 
 
-I haven't tried to compile and run the code since I don't have the Visual Studio and I didn't have time to install and study it. I have studdied the code and here are my comments.
+I haven't tried to compile and run the code since I don't have the Visual Studio and I didn't have time to install and study it. I have examined the code and here are my comments.
 
 __1. Implement Game::Stand__
 
-Implemented as required.
+Implemented according to the Sequence Diagram.
 
 
 ***
@@ -49,7 +49,7 @@ New method `public void GiveCardToPlayer(Player a_player, bool isShown)` in `Dea
 ***
 __6. Implement Observer pattern__ 
 
-The interface `GameObserver` was placed in `controller` namespace which led to violation of MVC separation principle - now `model.Player` has an assosiation relation to `controller` [1]. Hence the interface `GameObserver` should be placed in the `model` namespace.  
+The interface `GameObserver` was placed in `controller` namespace which led to violation of MVC separation principle - now `model.Player` has an association relation to `controller` [1]. Hence the interface `GameObserver` should be placed in the `model` namespace.  
 
 Also it is a common practice to use a `List` to collect all observers for a certain class, since we might have more than one. So current implementation with a single possible observer may limit future code developments.  
 
@@ -75,7 +75,7 @@ When working on some else's code it is a good idea to follow the established nam
 ***
 __References:__
 
-1. [Model-View-Controller] (https://msdn.microsoft.com/en-us/library/ff649643.aspx)
+1. [Model-View-Controller] (https://msdn.microsoft.com/en-us/library/ff649643.aspx), microsoft.com
 
-
+2. Larman, C., Applying UML and Patterns 3rd Ed, 2005, ISBN: 0-13-148906-2
 
