@@ -4,6 +4,8 @@
 Olga Christensen (oc222ba)
 
 
+##Grade 2  
+
 1. Source code [here] (https://github.com/oc777/1DV607/tree/master/WS2/BoatClubApp/src)
 
 2. Runnable jar [here] (https://github.com/oc777/1DV607/tree/master/WS2/dist)
@@ -11,6 +13,13 @@ Olga Christensen (oc222ba)
 3. Class and Sequence diagrams [here] (https://github.com/oc777/1DV607/tree/master/WS2/Diagrams)
 
 4. Changes done after Peer Review [here] (https://github.com/oc777/1DV607/blob/master/WS2/changes.txt)
+
+
+##Grade 3&4
+
+1. Source code [here] (https://github.com/oc777/1DV607/tree/master/WS2/Grade4/src) 
+
+2. Runnable jar [here] (https://github.com/oc777/1DV607/tree/master/WS2/Grade4)
 
 
 ###To run application:  
