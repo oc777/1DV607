@@ -22,6 +22,8 @@ Olga Christensen (oc222ba)
 2. Runnable jar [here] (https://github.com/oc777/1DV607/tree/master/WS2/Grade4)
 
 
+***
+
 ###To run application:  
 
 1. crete an empty folder ```club``` somewhere on your computer (or any other name)    
