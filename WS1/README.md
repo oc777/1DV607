@@ -13,8 +13,7 @@ __Comments:__
 - A Calendar shall have 0 to many events. This is best shown by having one Calendar and one Event concepts. 
 
 
-![domain model]
-(https://raw.githubusercontent.com/oc777/1DV607/master/WS1/WS1-Domain-Model-fixes.jpg?token=ADL6TMLV7536GWVY346FET27ACMMA)
+![domain model](./WS1-Domain-Model-fixes.jpg)
 
 
 ## Initial 
@@ -28,6 +27,6 @@ __Assumptions:__
  
 
 
-![domain model](https://raw.githubusercontent.com/oc777/1DV607/master/WS1/WS1-Domain-Model.jpg?token=ADL6TMK3LYBHW2NIOPEOQMK7ACNEO)
+![domain model](./WS1-Domain-Model.jpg)
 
 
