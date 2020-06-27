@@ -1,9 +1,9 @@
-#Workshop 1  
+# Workshop 1  
 
 Olga Christensen  (oc222ba)
 
 
-##Fixes
+## Fixes
 
 __Comments:__
 
@@ -13,10 +13,11 @@ __Comments:__
 - A Calendar shall have 0 to many events. This is best shown by having one Calendar and one Event concepts. 
 
 
-![domain model](https://raw.githubusercontent.com/oc777/1DV607/master/WS1/WS1-Domain-Model-fixes.jpg)
+![domain model]
+(https://raw.githubusercontent.com/oc777/1DV607/master/WS1/WS1-Domain-Model-fixes.jpg?token=ADL6TMLV7536GWVY346FET27ACMMA)
 
 
-##Initial 
+## Initial 
 
 
 
@@ -27,6 +28,6 @@ __Assumptions:__
  
 
 
-![domain model](https://raw.githubusercontent.com/oc777/1DV607/master/WS1/WS1-Domain-Model.jpg)
+![domain model](https://raw.githubusercontent.com/oc777/1DV607/master/WS1/WS1-Domain-Model.jpg?token=ADL6TMK3LYBHW2NIOPEOQMK7ACNEO)
 
 

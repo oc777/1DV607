@@ -1,25 +1,25 @@
 
-#Work Shop 3
+# Work Shop 3
 
 Olga Christensen (oc222ba)
 
-##Grade 2
+## Grade 2
 
-1. Source code [here] (https://github.com/oc777/1DV607/tree/master/WS3/BlackJack)
-
-
-##Grade 3
-
-1. Source code [here] (https://github.com/oc777/1DV607/tree/master/WS3/Grade3/BlackJack)
-
-2. Runnable jar [here] (https://github.com/oc777/1DV607/tree/master/WS3/Grade3)
+1. Source code [here](https://github.com/oc777/1DV607/tree/master/WS3/BlackJack)
 
 
-##Grade 4
+## Grade 3
 
-1. Source code [here] (https://github.com/oc777/1DV607/tree/master/WS3/Grade4/BlackJack)
+1. Source code [here](https://github.com/oc777/1DV607/tree/master/WS3/Grade3/BlackJack)
 
-2. Runnable jars [here] (https://github.com/oc777/1DV607/tree/master/WS3/Grade4)
+2. Runnable jar [here](https://github.com/oc777/1DV607/tree/master/WS3/Grade3)
+
+
+## Grade 4
+
+1. Source code [here](https://github.com/oc777/1DV607/tree/master/WS3/Grade4/BlackJack)
+
+2. Runnable jars [here](https://github.com/oc777/1DV607/tree/master/WS3/Grade4)
 
 __N.B.__ There are two runnable versions  
 - one for console (run with `java -jar BlackJack-Grade4-Console.jar`)  
@@ -29,7 +29,7 @@ __N.B.__ There are two runnable versions
 ***
 
 
-###Report
+### Report
 
 When working on implementing a GUI for Grade 4, I encountered further issues:
 

@@ -1,30 +1,30 @@
 
-#Work Shop 2
+# Work Shop 2
 
 Olga Christensen (oc222ba)
 
 
-##Grade 2  
+## Grade 2  
 
-1. Source code [here] (https://github.com/oc777/1DV607/tree/master/WS2/BoatClubApp/src)
+1. Source code [here](https://github.com/oc777/1DV607/tree/master/WS2/BoatClubApp/src)
 
-2. Runnable jar [here] (https://github.com/oc777/1DV607/tree/master/WS2/dist)
+2. Runnable jar [here](https://github.com/oc777/1DV607/tree/master/WS2/dist)
 
-3. Class and Sequence diagrams [here] (https://github.com/oc777/1DV607/tree/master/WS2/Diagrams)
+3. Class and Sequence diagrams [here](https://github.com/oc777/1DV607/tree/master/WS2/Diagrams)
 
-4. Changes done after Peer Review [here] (https://github.com/oc777/1DV607/blob/master/WS2/changes.txt)
+4. Changes done after Peer Review [here](https://github.com/oc777/1DV607/blob/master/WS2/changes.txt)
 
 
-##Grade 3&4
+## Grade 3&4
 
-1. Source code [here] (https://github.com/oc777/1DV607/tree/master/WS2/Grade4/src) 
+1. Source code [here](https://github.com/oc777/1DV607/tree/master/WS2/Grade4/src) 
 
-2. Runnable jar [here] (https://github.com/oc777/1DV607/tree/master/WS2/Grade4)
+2. Runnable jar [here](https://github.com/oc777/1DV607/tree/master/WS2/Grade4)
 
 
 ***
 
-###To run application:  
+### To run application:  
 
 1. crete an empty folder ```club``` somewhere on your computer (or any other name)    
 2. create a folder named ```data``` in the ```club``` folder (all files created by application will be save in this folder, __so the name is crutial__)   
@@ -33,7 +33,7 @@ Olga Christensen (oc222ba)
 `java -jar BoatClub.jar `  
 
 
-###To run project in IDE:
+### To run project in IDE:
 
 1. In `model` package edit `FileHandler.java` before running the project  
   * comment out line 12  
